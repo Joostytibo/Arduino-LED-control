@@ -173,9 +173,9 @@ void ALT()  {
    digitalWrite(9,LOW);             // make pin 9 LOW - LED on pin 9 off
    digitalWrite(7,LOW);             // make pin 7 LOW - LED on pin 7 off
 
-   digitalWrite(12,HIGH);           // make pin 12 LOW - LED on pin 12 off
-   digitalWrite(10,HIGH);           // make pin 10 LOW - LED on pin 10 off
-   digitalWrite(8,HIGH);            // make pin 8 LOW - LED on pin 8 off
+   digitalWrite(12,HIGH);           // make pin 12 HIGH - LED on pin 12 on
+   digitalWrite(10,HIGH);           // make pin 10 HIGH - LED on pin 10 on
+   digitalWrite(8,HIGH);            // make pin 8 HIGH - LED on pin 8 on
    delay(del);                      // the delay is del in milliseconds
    digitalWrite(12,LOW);            // make pin 12 LOW - LED on pin 12 off
    digitalWrite(10,LOW);            // make pin 10 LOW - LED on pin 10 off
